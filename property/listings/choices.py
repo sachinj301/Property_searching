@@ -39,7 +39,7 @@ state_choices = {
     'KA': 'Karnataka',
     'KL:': 'Kerala',
     'MP': 'Madhya Pradesh',
-    'MH': 'Maharashtra',
+    'maharashtra': 'Maharashtra',
     'MN': 'Manipur',
     'ML': 'Meghalaya',
     'MZ': 'Mizoram',
