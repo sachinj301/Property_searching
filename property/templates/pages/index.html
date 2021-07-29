@@ -87,7 +87,8 @@
             </div>
             <div class="card-body">
               <div class="listing-heading text-center">
-                <h4 class="text-primary">{{ listing.title }}</h4>
+                <a href="{% url 'listing' listing.id %}"><h4 class="text-primary">{{ listing.title }}</h4></a>
+
                 <p>
                   <i class="fas fa-map-marker text-secondary"></i>{{ listing.address }}, {{listing.city}}, {{listing.state}} - {{listing.zipcode}} </p>
               </div>
